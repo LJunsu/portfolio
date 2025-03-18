@@ -5,7 +5,8 @@ export default function Study() {
     const circleRef = useRef(null);
 
     useEffect(() => {
-        const circle = circleRef.current;
+        const circle = circleRef.current as HTMLDivElement | null;
+        if(!circle) return;
         const articles = circle.querySelectorAll("article");
     
         const handleMouseEnter = () => {
@@ -16,13 +17,13 @@ export default function Study() {
           circle.style.animationPlayState = "running";
         };
     
-        articles.forEach(el => {
+        articles.forEach((el: Element) => {
           el.addEventListener("mouseenter", handleMouseEnter);
           el.addEventListener("mouseleave", handleMouseLeave);
         });
     
         return () => {
-          articles.forEach(el => {
+          articles.forEach((el: Element) => {
             el.removeEventListener("mouseenter", handleMouseEnter);
             el.removeEventListener("mouseleave", handleMouseLeave);
           });
