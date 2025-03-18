@@ -2,7 +2,7 @@ export const mockItems = [
     {
         id: 0, 
         name: "당근마켓", 
-        mainImage: "/images/당근.jpg",
+        mainImage: "/images/당근.JPG",
         skill: ["Next.js", "Typescript", "Tailwind CSS", "Prisma", "Zod", "Cloudflare Image", "Cloudflare Stream"],
         architecture: null,
         images: ["/images/당근마켓 계정.png", "/images/당근마켓 홈1.png", "/images/당근마켓 홈2.png", "/images/동네생활.png", "/images/채팅.png", "/images/스트리밍.png", "/images/프로필.png"],
@@ -98,7 +98,7 @@ export const mockItems = [
         mainImage: "/images/top3.jpg",
         skill: ["Spring Boot", "React", "Typescript", "MySql", "JPA", "JWT 토큰"],
         architecture: null,
-        images: ["/images/top3.jpg", "/images/top3.jpg", "/images/게시물.png", "/images/로그인.jpg", "/images/마이페이지.jpg", "/images/보드디테일.jpg", "/images/댓글 및 좋아요.jpg"],
+        images: ["/images/top3.JPG", "/images/top3.JPG", "/images/게시물.png", "/images/로그인.JPG", "/images/마이페이지.JPG", "/images/보드디테일.JPG", "/images/댓글 및 좋아요.JPG"],
         description: [
             [
                 "Spring Boot, React.js (TypeScript), MySQL을 활용하여 게시판형 블로그 애플리케이션입니다.",

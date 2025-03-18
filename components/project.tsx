@@ -25,7 +25,7 @@ export default function Project() {
                     }}>
                         <div className="overflow-hidden rounded-t-2xl">
                             <Image
-                                src="/images/당근.jpg"
+                                src="/images/당근.JPG"
                                 alt="당근마켓"
                                 width={540} height={300}
                                 loading="lazy"
@@ -69,7 +69,7 @@ export default function Project() {
                     }}>
                         <div className="overflow-hidden rounded-t-2xl">
                             <Image
-                                src="/images/movie.jpg"
+                                src="/images/movie.JPG"
                                 alt="Movie"
                                 width={540} height={300}
                                 loading="lazy"
@@ -91,7 +91,7 @@ export default function Project() {
                     }}>
                         <div className="overflow-hidden rounded-t-2xl">
                             <Image
-                                src="/images/로그인.jpg"
+                                src="/images/로그인.JPG"
                                 alt="스프링부트 리액트 타입스크립트"
                                 width={540} height={300}
                                 loading="lazy"
