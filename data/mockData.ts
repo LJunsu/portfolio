@@ -5,9 +5,31 @@ export const mockItems = [
         mainImage: "/images/당근.jpg",
         skill: ["Next.js", "Typescript", "Tailwind CSS", "Prisma", "Zod", "Cloudflare Image", "Cloudflare Stream"],
         architecture: null,
-        images: [],
-        description: [],
-        descriptionTitle: [],
+        images: ["/images/당근마켓 계정.png", "/images/당근마켓 홈1.png", "/images/당근마켓 홈2.png", "/images/동네생활.png", "/images/채팅.png", "/images/스트리밍.png", "/images/프로필.png"],
+        description: [
+            [
+                "로그인"
+            ],
+            [
+                "홈1"
+            ],
+            [
+                "홈2"
+            ],
+            [
+                "동네생활"
+            ],
+            [
+                "채팅"
+            ],
+            [
+                "스트리밍"
+            ],
+            [
+                "프로필"
+            ]
+        ],
+        descriptionTitle: ["계정", "제품", "제품 상세", "동네생활", "채팅", "스트리밍", "프로필"],
         github: "https://github.com/LJunsu/carrot-market-reloaded",
         notion: "https://www.notion.so/Next-js-1-19037ccfd8c180e68b79f121ae1ad431?pvs=4",
         site: "https://carrot-market-reloaded-swart.vercel.app/"
@@ -60,12 +82,12 @@ export const mockItems = [
     {
         id: 2, 
         name: "Movie", 
-        mainImage: "/images/",
-        skill: [],
+        mainImage: "/images/movie2.png",
+        skill: ["Next.js"],
         architecture: null,
-        images: ["/images/"],
-        description: [],
-        descriptionTitle: [],
+        images: ["/images/movie1.png", "/images/movie2.png"],
+        description: [["Fetch를 통해 API의 데이터를 불러와 영화 리스트 제공"], ["Route를 통해 상세 페이지로 이동", "Fetch를 통해 API의 데이터를 불러와 제공"]],
+        descriptionTitle: ["리스트 페이지", "상세 페이지"],
         github: "https://github.com/LJunsu/Next.js-nomadcoder",
         notion: "https://www.notion.so/Next-js-18937ccfd8c180ef8f5df20f5474b961?pvs=4",
         site: "https://nextjs-movies-sepia-six.vercel.app/"
@@ -73,12 +95,39 @@ export const mockItems = [
     {
         id: 3, 
         name: "게시판 & 블로그", 
-        mainImage: "/images/",
-        skill: [],
+        mainImage: "/images/top3.jpg",
+        skill: ["Spring Boot", "React", "Typescript", "MySql", "JPA", "JWT 토큰"],
         architecture: null,
-        images: ["/images/"],
-        description: [],
-        descriptionTitle: [],
+        images: ["/images/top3.jpg", "/images/top3.jpg", "/images/게시물.png", "/images/로그인.jpg", "/images/마이페이지.jpg", "/images/보드디테일.jpg", "/images/댓글 및 좋아요.jpg"],
+        description: [
+            [
+                "Spring Boot, React.js (TypeScript), MySQL을 활용하여 게시판형 블로그 애플리케이션입니다.",
+                "Spring Boot로 RESTful API를 구축하고, MySQL을 이용해 데이터를 관리했습니다.",
+                "프론트엔드는 React.js와 TypeScript를 사용해 반응형 UI를 구현했습니다.",
+                "Axios를 통해 백엔드와의 데이터 연동을 처리하며, Spring Data JPA를 활용한 효율적인 데이터베이스 연동과 사용자 인증 시스템을 구현했습니다.",
+            ],
+            [
+                "JPA를 통해 7일 이내에 작성된 게시물을 좋아요, 댓글, 조회수, 작성일을 기준으로 Top3 게시글 조회"
+            ],
+            [
+                "전체 게시물을 페이지네이션을 통해 제공",
+                "검색 시 생성된 검색 로그를 통해 검색 횟수가 많은 키워드의 인기 검색어를 제공"
+            ],
+            [
+               "JWT 토큰을 통해 서명 검증으로 로그인" 
+            ],
+            [
+                "사용자의 게시물 리스트 제공",
+                "이름 및 프로필 이미지 수정"
+            ],
+            [
+                "게시글 상세 페이지 및 작성, 수정"
+            ],
+            [
+                "각 게시글 별 좋아요 및 댓글 리스트"
+            ]
+        ],
+        descriptionTitle: ["", "TOP-3", "게시글 & 인기 검색어", "로그인", "프로필", "상세 게시글", "상세 게시글"],
         github: "https://github.com/LJunsu/Spring-React-mysql",
         notion: "",
         site: ""

@@ -132,17 +132,17 @@ export default function Modal({showNumber, clickModal}: ModalProps) {
                     )
                     : null}
 
-                    <div className="w-full flex flex-col gap-12">  
+                    <div className="w-full">  
                         {project.images?.map((item, index) => (
-                            <div key={index}>
-                                <div className="text-2xl pb-3 border-gray-300 border-b-1" />
+                            <div key={index} className="flex flex-col gap-12">
+                                <div className="text-2xl pt-12 border-gray-300 border-b-1" />
 
                                 <div key={index} className="flex gap-10">
                                     <Image
                                         src={item} alt=""
                                         width={1200} height={600}
                                         className="w-1/2 max-h-[600px] object-contain"
-                                        />
+                                    />
 
                                     <div className="w-1/2 flex flex-col gap-3 text-lg">
                                         <div className="text-2xl font-bold">
