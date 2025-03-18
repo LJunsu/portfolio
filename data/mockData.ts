@@ -95,7 +95,7 @@ export const mockItems = [
     {
         id: 3, 
         name: "게시판 & 블로그", 
-        mainImage: "/images/top3.jpg",
+        mainImage: "/images/top3.JPG",
         skill: ["Spring Boot", "React", "Typescript", "MySql", "JPA", "JWT 토큰"],
         architecture: null,
         images: ["/images/top3.JPG", "/images/top3.JPG", "/images/게시물.png", "/images/로그인.JPG", "/images/마이페이지.JPG", "/images/보드디테일.JPG", "/images/댓글 및 좋아요.JPG"],
