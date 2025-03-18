@@ -134,7 +134,7 @@ export default function Modal({showNumber, clickModal}: ModalProps) {
 
                     <div className="w-full flex flex-col gap-12">  
                         {project.images?.map((item, index) => (
-                            <>
+                            <div key={index}>
                                 <div className="text-2xl pb-3 border-gray-300 border-b-1" />
 
                                 <div key={index} className="flex gap-10">
@@ -154,7 +154,7 @@ export default function Modal({showNumber, clickModal}: ModalProps) {
                                         ))}
                                     </div>
                                 </div>
-                            </>
+                            </div>
                         ))}
                     </div>
                 </div>
