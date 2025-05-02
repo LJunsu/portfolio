@@ -148,5 +148,46 @@ export const mockItems = [
         github: "https://github.com/LJunsu/Spring-React-mysql",
         notion: "",
         site: ""
+    },
+    {
+        id: 4, 
+        name: "TodoList", 
+        mainImage: "/images/todoList_1.PNG",
+        skill: ["Next.js", "Typescript"],
+        architecture: null,
+        images: ["/images/todoList_1.PNG", "/images/todoList_2.PNG", "/images/todoList_3.PNG", "/images/todoList_4.PNG", "/images/todoList_vd.mp4"],
+        description: [
+            [
+                "Todo의 생성과 삭제, 완료 여부를 제어할 수 있습니다.",
+                "Todo의 리스트를 제공하며, 각 Todo의 완료 상태를 확인할 수 있습니다."
+            ],
+            [
+                "클라이언트 컴포넌트에서 Action을 활용해 Todo 항목을 생성합니다.",
+                "사용자 입력 데이터에 대해 Zod를 이용해 유효성 검사를 수행합니다.",
+                "에러 처리 및 상태 관리를 위해 useActionState 훅을 사용하여 사용자에게 즉각적인 피드백을 제공합니다.",
+                "root 페이지는 서버 컴포넌트로 구성되어 있으며, 생성 컴포넌트와 리스트 컴포넌트 간의 실시간 데이터 동기화를 위해 Zustand와 useFormStatus를 활용해 상태를 효율적으로 전달합니다."
+            ],
+            [
+                "선택한 카테고리에 따라 해당 Todo 리스트를 필터링하여 화면에 출력합니다.",
+                "사용자는 Todo 항목을 선택한 후 'Complete' 또는 'Delete' 버튼을 통해 상태를 변경할 수 있습니다.",
+                "각 Todo의 상태는 체크 아이콘으로 시각적으로 구분되며, 카테고리별로 리스트를 쉽게 탐색할 수 있습니다."
+            ],
+            [
+                "카테고리별로 Todo 데이터를 필터링한 후, 해당 항목 수를 기준으로 페이지네이션 로직을 동적으로 계산하여 렌더링합니다.",
+                "전체 페이지 수를 limit 단위로 그룹화하여 2차원 배열로 관리하고, useState와 useEffect를 통해 현재 페이지 그룹을 동적으로 설정합니다.",
+                "현재 페이지에 따라 해당 그룹을 계산하여 화면에 보여줄 페이지 번호들을 결정합니다.",
+                "전체 페이지 번호를 limit 단위로 슬라이싱하여 페이지 그룹을 만들어 반환합니다."
+            ],
+            [
+                "Todo 항목을 드래그하여 카테고리(Active, Completed)로 이동하면 상태를 변경할 수 있습니다.",
+                "Todo 항목과 카테고리를 useRef를 통해 저장하고, 해당 값은 컴포넌트가 리렌더링되어도 유지되며, 빠르게 반응와 메모리 지속성을 가집니다.",
+                "zustand를 통해 드래그 여부를 전역적으로 파악하며, 드래그 상태에 따라 스타일을 변화합니다.",
+                "onDragStart, onDragOver, onDragLeave, onDrop 등 이벤트를 통해 드래그 동작을 구현합니다.",
+            ]
+        ],
+        descriptionTitle: ["TodoList", "Todo 추가", "Todo 카테고리", "페이지네이션", "드래그 및 실행"],
+        github: "https://github.com/LJunsu/Todo-List-NextJS-App",
+        notion: "",
+        site: ""
     }
 ];

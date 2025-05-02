@@ -14,3 +14,7 @@
       animation: rotateY360 30s linear infinite;
     }
   }
+
+* {
+  box-sizing: border-box;
+}

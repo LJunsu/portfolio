@@ -33,9 +33,9 @@ export default function Project() {
                             />
                         </div>
 
-                        <div className="flex justify-between p-5">
-                            <div className="text-2xl">당근마켓</div>
-                            <div className="flex items-center">Next.js / Typescript</div>
+                        <div className="flex flex-col justify-between gap-2 p-5">
+                            <div className="flex items-center text-xl">당근마켓</div>
+                            <div className="flex items-center text-sm">Next.js / Typescript</div>
                         </div>
                     </div>
                 </li>
@@ -55,9 +55,9 @@ export default function Project() {
                             />
                         </div>
 
-                        <div className="flex justify-between p-5">
-                            <div className="text-2xl">Nexus</div>
-                            <div className="flex items-center">Spring / JSP</div>
+                        <div className="flex flex-col justify-between gap-2 p-5">
+                            <div className="flex items-center text-xl">Nexus</div>
+                            <div className="flex items-center text-sm">Spring / JSP</div>
                         </div>
                     </div>
                 </li>
@@ -77,9 +77,9 @@ export default function Project() {
                             />
                         </div>
 
-                        <div className="flex justify-between p-5">
-                            <div className="text-2xl">Movie</div>
-                            <div className="flex items-center">Next.js</div>
+                        <div className="flex flex-col justify-between gap-2 p-5">
+                            <div className="flex items-center text-xl">Movie</div>
+                            <div className="flex items-center text-sm">Next.js</div>
                         </div>
                     </div>
                 </li>
@@ -99,9 +99,31 @@ export default function Project() {
                             />
                         </div>
 
-                        <div className="flex justify-between p-5">
-                            <div className="text-2xl">게시판 & 블로그</div>
-                            <div className="flex items-center">SpringBoot / React / Typescript / JPA</div>
+                        <div className="flex flex-col justify-between gap-2 p-5">
+                            <div className="flex items-center text-xl">게시판 & 블로그</div>
+                            <div className="flex items-center text-sm">SpringBoot / React / Typescript / JPA</div>
+                        </div>
+                    </div>
+                </li>
+
+                <li className="w-[calc(50%-1.25rem)] bg-[#F5F4F2] shadow-2xl rounded-2xl overflow-hidden group cursor-pointer">
+                    <div onClick={() => {
+                        setShowNumber(4);
+                        clickModal();
+                    }}>
+                        <div className="overflow-hidden rounded-t-2xl">
+                            <Image
+                                src="/images/todoList_1.PNG"
+                                alt="TodoList Next.js"
+                                width={540} height={300}
+                                loading="lazy"
+                                className="w-full h-[300px] p-3 object-cover rounded-2xl transition-transform duration-300 ease-out group-hover:scale-110"
+                            />
+                        </div>
+
+                        <div className="flex flex-col justify-between gap-2 p-5">
+                            <div className="flex items-center text-xl">TodoList</div>
+                            <div className="flex items-center text-sm">Next.js / Typescript</div>
                         </div>
                     </div>
                 </li>

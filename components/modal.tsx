@@ -56,7 +56,7 @@ export default function Modal({showNumber, clickModal}: ModalProps) {
                                 <div className="w-1/2 flex flex-col gap-3">
                                     <div className="text-2xl pb-3 border-gray-300 border-b-1">Link</div>
 
-                                    <ul className="flex flex-col flex-wrap gap-3 *:text-lg">
+                                    <ul className="flex flex-col flex-wrap gap-3 *:text-[1rem]">
                                         {project.github
                                         ? (
                                             <li>
@@ -67,7 +67,7 @@ export default function Modal({showNumber, clickModal}: ModalProps) {
                                                         after:w-full after:h-[1px] after:bg-black after:scale-x-0
                                                         after:transition-transform after:ease-in-out
                                                         hover:after:scale-x-100"
-                                                >GitHub</Link>
+                                                >GitHub →</Link>
                                             </li>
                                         )
                                         : null}        
@@ -82,7 +82,7 @@ export default function Modal({showNumber, clickModal}: ModalProps) {
                                                         after:w-full after:h-[1px] after:bg-black after:scale-x-0
                                                         after:transition-transform after:ease-in-out
                                                         hover:after:scale-x-100"
-                                                >Notion</Link>
+                                                >Notion →</Link>
                                             </li>
                                         )
                                         : null}            
@@ -97,7 +97,7 @@ export default function Modal({showNumber, clickModal}: ModalProps) {
                                                         after:w-full after:h-[1px] after:bg-black after:scale-x-0
                                                         after:transition-transform after:ease-in-out
                                                         hover:after:scale-x-100"
-                                                >Site</Link>
+                                                >Site →</Link>
                                             </li>
                                         )
                                         : null}                       
@@ -107,7 +107,7 @@ export default function Modal({showNumber, clickModal}: ModalProps) {
                                 <div className="w-1/2 flex flex-col gap-3">
                                     <div className="text-2xl pb-3 border-gray-300 border-b-1">Skill</div>
 
-                                    <ul className="flex flex-col flex-wrap gap-1 *:text-lg">                                
+                                    <ul className="flex flex-col flex-wrap gap-1 *:text-[1rem]">                                
                                         {project.skill.map((item, index) => (
                                             <li key={index}>{item}</li>
                                         ))}
@@ -138,11 +138,18 @@ export default function Modal({showNumber, clickModal}: ModalProps) {
                                 <div className="text-2xl pt-12 border-gray-300 border-b-1" />
 
                                 <div key={index} className="flex gap-10">
+                                    {!item.endsWith('.mp4') ?
                                     <Image
                                         src={item} alt=""
                                         width={1200} height={600}
                                         className="w-1/2 max-h-[600px] object-contain"
                                     />
+                                    : 
+                                    <video width="1200" height="600" controls className="w-1/2 max-h-[600px] object-contain">
+                                        <source src={item} type="video/mp4" />
+                                        브라우저가 video 태그를 지원하지 않습니다.
+                                    </video>}
+
 
                                     <div className="w-1/2 flex flex-col gap-3 text-lg">
                                         <div className="text-2xl font-bold">
@@ -150,7 +157,7 @@ export default function Modal({showNumber, clickModal}: ModalProps) {
                                             </div>
 
                                         {project.description[index].map((desc, descIndex) => (
-                                            <span key={descIndex}>{desc}</span>
+                                            <span key={descIndex} className="text-[16px]">{desc}</span>
                                         ))}
                                     </div>
                                 </div>

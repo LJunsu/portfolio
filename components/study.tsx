@@ -69,7 +69,7 @@ export default function Study() {
                     </li>
                 </ul>
                 
-                <div className="w-full text-center absolute bottom-16 left-1/2 -translate-x-1/2 text-4xl font-bold transition-opacity duration-100 group-hover:opacity-0">
+                <div className="w-full text-center absolute bottom-8 left-1/2 -translate-x-1/2 text-4xl font-bold transition-opacity duration-100 group-hover:opacity-0">
                     정보처리기사 필기
                 </div>
             </article>
@@ -105,7 +105,7 @@ export default function Study() {
                     </li>
                 </ul>
 
-                <div className="w-full text-center absolute bottom-16 left-1/2 -translate-x-1/2 text-4xl font-bold transition-opacity duration-100 group-hover:opacity-0">
+                <div className="w-full text-center absolute bottom-8 left-1/2 -translate-x-1/2 text-4xl font-bold transition-opacity duration-100 group-hover:opacity-0">
                     정보처리기사 실기
                 </div>
             </article>
@@ -141,7 +141,7 @@ export default function Study() {
                     </li>
                 </ul>
                 
-                <div className="w-full text-center absolute bottom-16 left-1/2 -translate-x-1/2 text-4xl font-bold transition-opacity duration-100 group-hover:opacity-0">
+                <div className="w-full text-center absolute bottom-8 left-1/2 -translate-x-1/2 text-4xl font-bold transition-opacity duration-100 group-hover:opacity-0">
                     생활코딩 리액트
                 </div>
             </article>
@@ -177,7 +177,7 @@ export default function Study() {
                     </li>
                 </ul>
 
-                <div className="w-full text-center absolute bottom-16 left-1/2 -translate-x-1/2 text-4xl font-bold transition-opacity duration-100 group-hover:opacity-0">
+                <div className="w-full text-center absolute bottom-8 left-1/2 -translate-x-1/2 text-4xl font-bold transition-opacity duration-100 group-hover:opacity-0">
                     노마드코더 리액트
                 </div>
             </article>
@@ -213,7 +213,7 @@ export default function Study() {
                     </li>
                 </ul>
 
-                <div className="w-full text-center absolute bottom-16 left-1/2 -translate-x-1/2 text-4xl font-bold transition-opacity duration-100 group-hover:opacity-0">
+                <div className="w-full text-center absolute bottom-8 left-1/2 -translate-x-1/2 text-4xl font-bold transition-opacity duration-100 group-hover:opacity-0">
                     노마드코더 타입스크립트
                 </div>
             </article>
@@ -269,7 +269,7 @@ export default function Study() {
                     </li>
                 </ul>
 
-                <div className="w-full text-center absolute bottom-16 left-1/2 -translate-x-1/2 text-4xl font-bold transition-opacity duration-100 group-hover:opacity-0">
+                <div className="w-full text-center absolute bottom-8 left-1/2 -translate-x-1/2 text-4xl font-bold transition-opacity duration-100 group-hover:opacity-0">
                     스프링부트 + 리액트 + MySql
                 </div>
             </article>
@@ -315,7 +315,7 @@ export default function Study() {
                     </li>
                 </ul>
 
-                <div className="w-full text-center absolute bottom-16 left-1/2 -translate-x-1/2 text-4xl font-bold transition-opacity duration-100 group-hover:opacity-0">
+                <div className="w-full text-center absolute bottom-8 left-1/2 -translate-x-1/2 text-4xl font-bold transition-opacity duration-100 group-hover:opacity-0">
                     노마드코더 넥스트
                 </div>
             </article>
@@ -361,7 +361,7 @@ export default function Study() {
                     </li>
                 </ul>
 
-                <div className="w-full text-center absolute bottom-16 left-1/2 -translate-x-1/2 text-4xl font-bold transition-opacity duration-100 group-hover:opacity-0">
+                <div className="w-full text-center absolute bottom-8 left-1/2 -translate-x-1/2 text-4xl font-bold transition-opacity duration-100 group-hover:opacity-0">
                     노마드코더 넥스트 - 당근마켓
                 </div>
             </article>
