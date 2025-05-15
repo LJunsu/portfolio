@@ -199,7 +199,7 @@ export const mockItems = [
         images: ["/images/NewsAndStock.PNG"],
         description: [
             [
-
+                "진행중"
             ]
         ],
         descriptionTitle: ["newsAndStock"],
