@@ -25,7 +25,7 @@ export default function Section() {
                     <Skill />
                 </article>
 
-                <article
+                {/* <article
                     ref={sectionRefs.study} 
                     className="relative w-screen h-screen perspective-distant overflow-hidden shadow-lg bg-white"
                 >
@@ -34,7 +34,7 @@ export default function Section() {
                     </div>
 
                     <Study />
-                </article>
+                </article> */}
 
                 <article 
                     ref={sectionRefs.project} 

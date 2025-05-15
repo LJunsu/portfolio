@@ -49,14 +49,14 @@ export default function Navigation() {
                         hover:after:scale-x-100 cursor-pointer
                     ">Skill & Tools</div>
 
-                    <div 
+                    {/* <div 
                     onClick={() => onMoveBox("study")}
                     className="
                         relative after:absolute after:bottom-0 after:left-0
                         after:w-full after:h-[1px] after:bg-black after:scale-x-0
                         after:transition-transform after:ease-in-out
                         hover:after:scale-x-100 cursor-pointer
-                    ">Study</div>
+                    ">Study</div> */}
 
                     <div
                     onClick={() => onMoveBox("project")}
