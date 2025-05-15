@@ -248,7 +248,7 @@ export default function Study() {
                         />
                     </li>
 
-                    <li className="size-[240px] rounded-full bg-white flex items-center justify-center p-3 animate-bounce [animation-delay:200ms]">
+                    <li className="size-[120px] rounded-full bg-white flex items-center justify-center p-3 animate-bounce [animation-delay:200ms]">
                         <Image
                             src="/images/React.png"
                             alt="React"
