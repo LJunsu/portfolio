@@ -75,7 +75,7 @@ export default function Study() {
             </article>
 
             <article 
-                style={{ transform: 'rotateY(45deg) translateZ(-1200px)' }}
+                style={{ transform: 'rotateY(40deg) translateZ(-1200px)' }}
                 className="
                     absolute top-0 left-0 w-full h-full bg-blue-300 block
                     backface-hidden *:rounded-2xl group
@@ -111,7 +111,7 @@ export default function Study() {
             </article>
 
             <article 
-                style={{ transform: 'rotateY(90deg) translateZ(-1200px)' }}
+                style={{ transform: 'rotateY(80deg) translateZ(-1200px)' }}
                 className="
                     absolute top-0 left-0 w-full h-full bg-blue-300 block
                     backface-hidden *:rounded-2xl group
@@ -147,7 +147,7 @@ export default function Study() {
             </article>
 
             <article 
-                style={{ transform: 'rotateY(135deg) translateZ(-1200px)' }}
+                style={{ transform: 'rotateY(120deg) translateZ(-1200px)' }}
                 className="
                     absolute top-0 left-0 w-full h-full bg-blue-300 block
                     backface-hidden *:rounded-2xl group
@@ -183,7 +183,7 @@ export default function Study() {
             </article>
 
             <article 
-                style={{ transform: 'rotateY(180deg) translateZ(-1200px)' }}
+                style={{ transform: 'rotateY(160deg) translateZ(-1200px)' }}
                 className="
                     absolute top-0 left-0 w-full h-full bg-blue-300 block
                     backface-hidden *:rounded-2xl group
@@ -219,7 +219,7 @@ export default function Study() {
             </article>
 
             <article 
-                style={{ transform: 'rotateY(225deg) translateZ(-1200px)' }}
+                style={{ transform: 'rotateY(200deg) translateZ(-1200px)' }}
                 className="
                     absolute top-0 left-0 w-full h-full bg-blue-300 block
                     backface-hidden *:rounded-2xl group
@@ -248,7 +248,7 @@ export default function Study() {
                         />
                     </li>
 
-                    <li className="size-[120px] rounded-full bg-white flex items-center justify-center p-3 animate-bounce [animation-delay:200ms]">
+                    <li className="size-[240px] rounded-full bg-white flex items-center justify-center p-3 animate-bounce [animation-delay:200ms]">
                         <Image
                             src="/images/React.png"
                             alt="React"
@@ -275,7 +275,7 @@ export default function Study() {
             </article>
 
             <article 
-                style={{ transform: 'rotateY(270deg) translateZ(-1200px)' }}
+                style={{ transform: 'rotateY(240deg) translateZ(-1200px)' }}
                 className="
                     absolute top-0 left-0 w-full h-full bg-blue-300 block
                     backface-hidden *:rounded-2xl group
@@ -316,12 +316,12 @@ export default function Study() {
                 </ul>
 
                 <div className="w-full text-center absolute bottom-8 left-1/2 -translate-x-1/2 text-4xl font-bold transition-opacity duration-100 group-hover:opacity-0">
-                    노마드코더 넥스트
+                    노마드코더 Next.js
                 </div>
             </article>
 
             <article 
-                style={{ transform: 'rotateY(315deg) translateZ(-1200px)' }}
+                style={{ transform: 'rotateY(280deg) translateZ(-1200px)' }}
                 className="
                     absolute top-0 left-0 w-full h-full bg-blue-300 block
                     backface-hidden *:rounded-2xl group
@@ -363,6 +363,42 @@ export default function Study() {
 
                 <div className="w-full text-center absolute bottom-8 left-1/2 -translate-x-1/2 text-4xl font-bold transition-opacity duration-100 group-hover:opacity-0">
                     노마드코더 넥스트 - 당근마켓
+                </div>
+            </article>
+
+            <article 
+                style={{ transform: 'rotateY(320deg) translateZ(-1200px)' }}
+                className="
+                    absolute top-0 left-0 w-full h-full bg-blue-300 block
+                    backface-hidden *:rounded-2xl group
+            ">
+                <Image
+                    src="/images/Frame 9.png"
+                    alt="모던 자바스크립트 Deep Dive"
+                    width={1000} height={750}
+                    loading="lazy"
+                    className="w-full h-full object-fit"
+                />
+
+                <div className="
+                    absolute top-0 left-0 size-full bg-black
+                    opacity-0 transition-opacity duration-300 group-hover:opacity-40
+                "/>
+
+                <ul className="absolute top-3/4 left-1/2 -translate-x-1/2 flex gap-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    <li className="size-[120px] rounded-full bg-white flex items-center justify-center p-3 animate-bounce [animation-delay:100ms]">
+                        <Image
+                            src="/images/Javascript.png"
+                            alt="Next.js"
+                            width={120} height={120}
+                            loading="lazy"
+                            className="p-2"
+                        />
+                    </li>
+                </ul>
+
+                <div className="w-full text-center absolute bottom-8 left-1/2 -translate-x-1/2 text-4xl font-bold transition-opacity duration-100 group-hover:opacity-0">
+                    모던 자바스크립트 Deep Dive
                 </div>
             </article>
         </section>

@@ -127,6 +127,28 @@ export default function Project() {
                         </div>
                     </div>
                 </li>
+
+                <li className="w-[calc(50%-1.25rem)] bg-[#F5F4F2] shadow-2xl rounded-2xl overflow-hidden group cursor-pointer">
+                    <div onClick={() => {
+                        setShowNumber(5);
+                        clickModal();
+                    }}>
+                        <div className="overflow-hidden rounded-t-2xl">
+                            <Image
+                                src="/images/NewsAndStock.PNG"
+                                alt="TodoList Next.js"
+                                width={540} height={300}
+                                loading="lazy"
+                                className="w-full h-[300px] p-3 object-cover rounded-2xl transition-transform duration-300 ease-out group-hover:scale-110"
+                            />
+                        </div>
+
+                        <div className="flex flex-col justify-between gap-2 p-5">
+                            <div className="flex items-center text-xl">NewsAndStock</div>
+                            <div className="flex items-center text-sm">Next.js / Typescript</div>
+                        </div>
+                    </div>
+                </li>
             </ul>
 
             {

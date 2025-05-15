@@ -189,5 +189,22 @@ export const mockItems = [
         github: "https://github.com/LJunsu/Todo-List-NextJS-App",
         notion: "",
         site: ""
+    },
+        {
+        id: 5, 
+        name: "NewsAndStock", 
+        mainImage: "/images/NewsAndStock.PNG",
+        skill: ["Next.js", "Typescript"],
+        architecture: null,
+        images: ["/images/NewsAndStock.PNG"],
+        description: [
+            [
+
+            ]
+        ],
+        descriptionTitle: ["newsAndStock"],
+        github: "https://github.com/LJunsu/NewsAndStock",
+        notion: "",
+        site: ""
     }
 ];
