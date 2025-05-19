@@ -205,6 +205,6 @@ export const mockItems = [
         descriptionTitle: ["newsAndStock"],
         github: "https://github.com/LJunsu/NewsAndStock",
         notion: "",
-        site: ""
+        site: "https://news-and-stock.vercel.app/"
     }
 ];
