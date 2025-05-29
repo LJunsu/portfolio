@@ -181,7 +181,7 @@ export const mockItems = [
         id: 4, 
         name: "NewsAndStock (진행중)", 
         mainImage: "/images/NewsAndStock.PNG",
-        skill: ["Next.js", "Typescript"],
+        skill: ["Next.js", "Typescript", "d3.js"],
         architecture: null,
         images: ["/images/NewsAndStock_5.PNG", "/images/NewsAndStock_6.PNG", "/images/NewsAndStock_1.PNG", "/images/NewsAndStock_7.PNG", "/images/NewsAndStock_8.PNG", "/images/NewsAndStock_2.PNG", "/images/NewsAndStock_3.PNG", "/images/NewsAndStock_4.PNG"],
         description: [
@@ -204,7 +204,7 @@ export const mockItems = [
                 "주식 페이지"
             ],
             [
-                "주식 차트"
+                "주식 차트 (d3.js)"
             ],
             [
                 "주식 관련 뉴스"
