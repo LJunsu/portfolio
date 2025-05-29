@@ -69,28 +69,6 @@ export default function Project() {
                     }}>
                         <div className="overflow-hidden rounded-t-2xl">
                             <Image
-                                src="/images/movie.JPG"
-                                alt="Movie"
-                                width={540} height={300}
-                                loading="lazy"
-                                className="w-full h-[300px] p-3 object-cover rounded-2xl transition-transform duration-300 ease-out group-hover:scale-110"
-                            />
-                        </div>
-
-                        <div className="flex flex-col justify-between gap-2 p-5">
-                            <div className="flex items-center text-xl">Movie</div>
-                            <div className="flex items-center text-sm">Next.js</div>
-                        </div>
-                    </div>
-                </li>
-
-                <li className="w-[calc(50%-1.25rem)] bg-[#F5F4F2] shadow-2xl rounded-2xl overflow-hidden group cursor-pointer">
-                    <div onClick={() => {
-                        setShowNumber(3);
-                        clickModal();
-                    }}>
-                        <div className="overflow-hidden rounded-t-2xl">
-                            <Image
                                 src="/images/로그인.JPG"
                                 alt="스프링부트 리액트 타입스크립트"
                                 width={540} height={300}
@@ -108,7 +86,7 @@ export default function Project() {
 
                 <li className="w-[calc(50%-1.25rem)] bg-[#F5F4F2] shadow-2xl rounded-2xl overflow-hidden group cursor-pointer">
                     <div onClick={() => {
-                        setShowNumber(4);
+                        setShowNumber(3);
                         clickModal();
                     }}>
                         <div className="overflow-hidden rounded-t-2xl">
@@ -130,7 +108,7 @@ export default function Project() {
 
                 <li className="w-[calc(50%-1.25rem)] bg-[#F5F4F2] shadow-2xl rounded-2xl overflow-hidden group cursor-pointer">
                     <div onClick={() => {
-                        setShowNumber(5);
+                        setShowNumber(4);
                         clickModal();
                     }}>
                         <div className="overflow-hidden rounded-t-2xl">
@@ -146,6 +124,28 @@ export default function Project() {
                         <div className="flex flex-col justify-between gap-2 p-5">
                             <div className="flex items-center text-xl">NewsAndStock</div>
                             <div className="flex items-center text-sm">Next.js / Typescript</div>
+                        </div>
+                    </div>
+                </li>
+
+                <li className="w-[calc(50%-1.25rem)] bg-[#F5F4F2] shadow-2xl rounded-2xl overflow-hidden group cursor-pointer">
+                    <div onClick={() => {
+                        setShowNumber(5);
+                        clickModal();
+                    }}>
+                        <div className="overflow-hidden rounded-t-2xl">
+                            <Image
+                                src="/images/movie.JPG"
+                                alt="Movie"
+                                width={540} height={300}
+                                loading="lazy"
+                                className="w-full h-[300px] p-3 object-cover rounded-2xl transition-transform duration-300 ease-out group-hover:scale-110"
+                            />
+                        </div>
+
+                        <div className="flex flex-col justify-between gap-2 p-5">
+                            <div className="flex items-center text-xl">Movie</div>
+                            <div className="flex items-center text-sm">Next.js</div>
                         </div>
                     </div>
                 </li>

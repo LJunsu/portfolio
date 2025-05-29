@@ -99,19 +99,6 @@ export const mockItems = [
     },
     {
         id: 2, 
-        name: "Movie", 
-        mainImage: "/images/movie2.png",
-        skill: ["Next.js"],
-        architecture: null,
-        images: ["/images/movie1.png", "/images/movie2.png"],
-        description: [["Fetch를 사용하여 영화 API 데이터를 불러와 영화 리스트를 제공합니다."], ["Route를 통해 상세 페이지로 이동하고, Fetch로 API 데이터를 불러와 제공됩니다."]],
-        descriptionTitle: ["리스트 페이지", "상세 페이지"],
-        github: "https://github.com/LJunsu/Next.js-nomadcoder",
-        notion: "https://www.notion.so/Next-js-18937ccfd8c180ef8f5df20f5474b961?pvs=4",
-        site: "https://nextjs-movies-sepia-six.vercel.app/"
-    },
-    {
-        id: 3, 
         name: "게시판 & 블로그", 
         mainImage: "/images/top3.JPG",
         skill: ["Spring Boot", "React", "Typescript", "MySql", "JPA", "JWT 토큰"],
@@ -150,7 +137,7 @@ export const mockItems = [
         site: ""
     },
     {
-        id: 4, 
+        id: 3, 
         name: "TodoList", 
         mainImage: "/images/todoList_1.PNG",
         skill: ["Next.js", "Typescript"],
@@ -190,21 +177,55 @@ export const mockItems = [
         notion: "",
         site: ""
     },
-        {
-        id: 5, 
-        name: "NewsAndStock", 
+    {
+        id: 4, 
+        name: "NewsAndStock (진행중)", 
         mainImage: "/images/NewsAndStock.PNG",
         skill: ["Next.js", "Typescript"],
         architecture: null,
-        images: ["/images/NewsAndStock.PNG"],
+        images: ["/images/NewsAndStock_5.PNG", "/images/NewsAndStock_6.PNG", "/images/NewsAndStock_1.PNG", "/images/NewsAndStock_7.PNG", "/images/NewsAndStock_8.PNG", "/images/NewsAndStock_2.PNG", "/images/NewsAndStock_3.PNG", "/images/NewsAndStock_4.PNG"],
         description: [
             [
-                "진행중"
+                "로그인"
+            ],
+            [
+                "회원가입"
+            ],
+            [
+                "뉴스 페이지"
+            ],
+            [
+                "뉴스 모달"
+            ],
+            [
+                "뉴스 좋아요 및 댓글"
+            ],
+            [
+                "주식 페이지"
+            ],
+            [
+                "주식 차트"
+            ],
+            [
+                "주식 관련 뉴스"
             ]
         ],
         descriptionTitle: ["newsAndStock"],
         github: "https://github.com/LJunsu/NewsAndStock",
         notion: "",
         site: "https://news-and-stock.vercel.app/"
-    }
+    },
+    {
+        id: 5, 
+        name: "Movie", 
+        mainImage: "/images/movie2.png",
+        skill: ["Next.js"],
+        architecture: null,
+        images: ["/images/movie1.png", "/images/movie2.png"],
+        description: [["Fetch를 사용하여 영화 API 데이터를 불러와 영화 리스트를 제공합니다."], ["Route를 통해 상세 페이지로 이동하고, Fetch로 API 데이터를 불러와 제공됩니다."]],
+        descriptionTitle: ["리스트 페이지", "상세 페이지"],
+        github: "https://github.com/LJunsu/Next.js-nomadcoder",
+        notion: "https://www.notion.so/Next-js-18937ccfd8c180ef8f5df20f5474b961?pvs=4",
+        site: "https://nextjs-movies-sepia-six.vercel.app/"
+    },
 ];
